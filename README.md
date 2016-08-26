@@ -5,8 +5,8 @@ Osirus MMO is a truly free, sandbox MMO/Capitalism simulator. Everything in the 
 
 #Installing
 Unpack the client to the directory of your choice, and execute the Osirus shortcut located in the OsirusMMO directory.
-*You can also copy the shortcut to your desktop.
-*Installer comming soon!
+- You can also copy the shortcut to your desktop.
+- Installer comming soon!
 
 Thanks for trying Osirus MMO, we hope it is a pleasant experience.
 
