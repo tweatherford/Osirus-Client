@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<parceldata>
+  <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
+    <name>Your Parcel</name>
+    <description>
+    </description>
+    <uuid>393a6ab5-2a0d-45e5-a4de-32ce3369a1b0</uuid>
+    <area>65536</area>
+    <location>126/126/0.7900001</location>
+    <infouuid>00e80300-00e8-0300-7e00-00007e000000</infouuid>
+    <dwell>0</dwell>
+    <owner>
+      <uuid>aa927635-19a4-40b8-8dc0-90a7a7fb3c59</uuid>
+    </owner>
+  </parcel>
+</parceldata>

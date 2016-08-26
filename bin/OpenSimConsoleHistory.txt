@@ -1,0 +1,31 @@
+Region
+Tim
+Weatherford
+create user
+new user
+create region
+create region
+create region
+create region
+1000,1001
+9001
+1000,1001
+9001
+mmo.netkiosk.org
+yes
+create region Welcome Region.ini
+1001,1000
+9001
+game.netkiosk.org
+yes
+create region Aegis Regions.ini
+1000,1001
+9002
+game.netkiosk.org
+yes
+create region Iris Regions.ini
+1001,1001
+9003
+game.netkiosk.org
+yes
+create region Noctis Regions.ini

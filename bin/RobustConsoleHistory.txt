@@ -1,0 +1,17 @@
+Tim
+Weatherford
+tim.weatherford@gmail.com
+create user
+Tim
+Artehy
+info@vasolutions.tk
+create user
+Tim
+Artehy
+1000000
+set user level
+create region
+Tim
+Artehy
+250
+set user level

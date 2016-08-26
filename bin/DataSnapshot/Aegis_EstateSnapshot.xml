@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<estate>
+  <name>Weatherford, LLC</name>
+  <id>100</id>
+  <parentid>1</parentid>
+  <flags teleport="True" public="True" />
+</estate>
