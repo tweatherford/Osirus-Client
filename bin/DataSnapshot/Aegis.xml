@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<region category="PG" entities="2">
+<region category="PG" entities="0">
   <info>
     <uuid>2b0a1f69-cdca-49e6-8195-3b626caa273d</uuid>
     <url>http://game.netkiosk.org:9000</url>
@@ -7,35 +7,35 @@
     <handle>1100611139659776</handle>
   </info>
   <grid>
-    <gatekeeperURL>http://game.netkiosk.org:8002</gatekeeperURL>
+    <gatekeeperURL>http://game.osirus.tk:8002</gatekeeperURL>
     <name>OSGrid</name>
   </grid>
   <data>
     <estate>
-  <user>
-    <name>Tim Weatherford</name>
-    <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
-  </user>
-  <name>Weatherford, LLC</name>
-  <id>100</id>
-  <parentid>1</parentid>
-  <flags teleport="True" public="True" />
-</estate>
+      <user>
+        <name>Tim Weatherford</name>
+        <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
+      </user>
+      <name>Weatherford, LLC</name>
+      <id>100</id>
+      <parentid>1</parentid>
+      <flags teleport="True" public="True" />
+    </estate>
     <parceldata>
-  <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
-    <name>Your Parcel</name>
-    <description>
-    </description>
-    <uuid>b0e895b7-c403-4bf9-8f64-9cb443bd84fd</uuid>
-    <area>65536</area>
-    <location>126/126/0.7900001</location>
-    <infouuid>00e80300-00e9-0300-7e00-00007e000000</infouuid>
-    <dwell>0</dwell>
-    <owner>
-      <uuid>aa927635-19a4-40b8-8dc0-90a7a7fb3c59</uuid>
-    </owner>
-  </parcel>
-</parceldata>
+      <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
+        <name>Your Parcel</name>
+        <description>
+        </description>
+        <uuid>b0e895b7-c403-4bf9-8f64-9cb443bd84fd</uuid>
+        <area>65536</area>
+        <location>126/126/0.7900001</location>
+        <infouuid>00e80300-00e9-0300-7e00-00007e000000</infouuid>
+        <dwell>0</dwell>
+        <owner>
+          <uuid>aa927635-19a4-40b8-8dc0-90a7a7fb3c59</uuid>
+        </owner>
+      </parcel>
+    </parceldata>
     <objectdata />
   </data>
 </region>

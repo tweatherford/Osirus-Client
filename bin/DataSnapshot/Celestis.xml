@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<region category="PG" entities="2">
+<region category="PG" entities="0">
   <info>
     <uuid>df5a8dd8-ef2a-49d7-8a8c-1f2dcc68f50f</uuid>
     <url>http://game.netkiosk.org:9000</url>
     <name>Celestis</name>
-    <handle>1101710651287808</handle>
+    <handle>1098412116404480</handle>
   </info>
   <grid>
-    <gatekeeperURL>http://game.netkiosk.org:8002</gatekeeperURL>
+    <gatekeeperURL>http://game.osirus.tk:8002</gatekeeperURL>
     <name>OSGrid</name>
   </grid>
   <data>
     <estate>
-  <user>
-    <name>Tim Weatherford</name>
-    <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
-  </user>
-  <name>Weatherford, LLC</name>
-  <id>100</id>
-  <parentid>1</parentid>
-  <flags teleport="True" public="True" />
-</estate>
+      <user>
+        <name>Tim Weatherford</name>
+        <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
+      </user>
+      <name>Weatherford, LLC</name>
+      <id>100</id>
+      <parentid>1</parentid>
+      <flags teleport="True" public="True" />
+    </estate>
     <parceldata>
-  <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
-    <name>Celestus</name>
-    <description>
-    </description>
-    <uuid>05a71b45-bd4c-4164-b5c4-1c7f951127a9</uuid>
-    <area>65536</area>
-    <location>126/126/0.7900001</location>
-    <infouuid>00e90300-00ea-0300-7e00-00007e000000</infouuid>
-    <dwell>0</dwell>
-    <owner>
-      <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
-      <name>Tim Weatherford</name>
-    </owner>
-  </parcel>
-</parceldata>
+      <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
+        <name>Celestus</name>
+        <description>
+        </description>
+        <uuid>05a71b45-bd4c-4164-b5c4-1c7f951127a9</uuid>
+        <area>65536</area>
+        <location>126/126/0.7900001</location>
+        <infouuid>00e90300-00e7-0300-7e00-00007e000000</infouuid>
+        <dwell>0</dwell>
+        <owner>
+          <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
+          <name>Tim Weatherford</name>
+        </owner>
+      </parcel>
+    </parceldata>
     <objectdata />
   </data>
 </region>

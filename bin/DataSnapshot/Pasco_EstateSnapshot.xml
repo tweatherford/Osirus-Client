@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<estate>
+  <user>
+    <name>Tim Weatherford</name>
+    <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
+  </user>
+  <name>Weatherford, LLC</name>
+  <id>100</id>
+  <parentid>1</parentid>
+  <flags teleport="True" public="True" />
+</estate>

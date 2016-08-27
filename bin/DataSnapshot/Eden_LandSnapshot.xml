@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<parceldata>
+  <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
+    <name>Your Parcel</name>
+    <description>
+    </description>
+    <uuid>eb2202c6-6d48-4080-8996-702e166e9ae4</uuid>
+    <area>65536</area>
+    <location>126/126/0.7900001</location>
+    <infouuid>00e70300-00e7-0300-7e00-00007e000000</infouuid>
+    <dwell>0</dwell>
+    <owner>
+      <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
+      <name>Tim Weatherford</name>
+    </owner>
+  </parcel>
+</parceldata>

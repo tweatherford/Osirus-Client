@@ -29,3 +29,4 @@ create region Iris Regions.ini
 game.netkiosk.org
 yes
 create region Noctis Regions.ini
+version
