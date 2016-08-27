@@ -10,4 +10,5 @@ To intall run/unpack OsirusMMO.exe to the directory of your choice. This will ex
 
 Thanks for trying Osirus MMO, we hope it is a pleasant experience.
 
+See the wiki for more details!
 
