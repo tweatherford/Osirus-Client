@@ -2281,3 +2281,293 @@
 2016-08-26 18:57:33,581 DEBUG (32) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session 465b946f-d08b-47bc-b533-bd77be8998fa, user bb5177ba-6bbb-11e6-94fc-f23c91db8783, region 2b0a1f69-cdca-49e6-8195-3b626caa273d. Previously: region 7be8dc19-6a9f-4d93-b033-f2ed9daae59a
 2016-08-26 19:02:13,762 DEBUG (24) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User bb5177ba-6bbb-11e6-94fc-f23c91db8783 is offline
 2016-08-26 19:02:14,442 DEBUG (24) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LogoutAgent: session 465b946f-d08b-47bc-b533-bd77be8998fa, user bb5177ba-6bbb-11e6-94fc-f23c91db8783, region 2b0a1f69-cdca-49e6-8195-3b626caa273d
+2016-08-26 22:36:41,384 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Starting in C:\Users\tim\Desktop\mmoGrid\bin
+2016-08-26 22:36:41,410 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: OpenSimulator version: OpenSim 0.8.2.1 Release    6ea3a2d
+2016-08-26 22:36:41,410 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 64-bit
+2016-08-26 22:36:41,419 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Logging started to file C:\Users\tim\Desktop\mmoGrid\bin\Robust.log
+2016-08-26 22:36:41,765 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS] Not including stats for network interface 'Wireless Network Connection' of type 'Wireless80211'.
+2016-08-26 22:36:41,767 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS]     To include, add to comma separated list in [Monitoring]NetworkInterfaceTypes=Ethernet
+2016-08-26 22:36:41,768 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS] Not including stats for network interface 'Loopback Pseudo-Interface 1' of type 'Loopback'.
+2016-08-26 22:36:41,768 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS]     To include, add to comma separated list in [Monitoring]NetworkInterfaceTypes=Ethernet
+2016-08-26 22:36:41,769 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS] Not including stats for network interface 'Teredo Tunneling Pseudo-Interface' of type 'Tunnel'.
+2016-08-26 22:36:41,769 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS]     To include, add to comma separated list in [Monitoring]NetworkInterfaceTypes=Ethernet
+2016-08-26 22:36:41,776 INFO  (1) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [BASE HTTP SERVER]: Starting HTTP server on port 8003
+2016-08-26 22:36:41,804 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread0:8003, ID 6
+2016-08-26 22:36:41,806 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread1:8003, ID 7
+2016-08-26 22:36:41,810 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread2:8003, ID 8
+2016-08-26 22:36:41,813 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread LongPollServiceWatcherThread:8003, ID 9
+2016-08-26 22:36:41,818 INFO  (1) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [BASE HTTP SERVER]: Starting HTTP server on port 8002
+2016-08-26 22:36:41,821 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread0:8002, ID 12
+2016-08-26 22:36:41,824 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread1:8002, ID 13
+2016-08-26 22:36:41,826 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread2:8002, ID 14
+2016-08-26 22:36:41,827 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread LongPollServiceWatcherThread:8002, ID 15
+2016-08-26 22:36:41,829 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GetTextureServerConnector on port 8002
+2016-08-26 22:36:42,823 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AssetStore data tables already up to date at revision 9
+2016-08-26 22:36:42,848 DEBUG (1) - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Loading default asset set from ./assets/AssetSets.xml
+2016-08-26 22:38:07,724 DEBUG (1) - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Local asset service enabled
+2016-08-26 22:38:07,730 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GetTextureServerConnector loaded successfully
+2016-08-26 22:38:07,733 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AssetServiceConnector on port 8003
+2016-08-26 22:38:07,977 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AssetStore data tables already up to date at revision 9
+2016-08-26 22:38:07,992 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AssetServiceConnector loaded successfully
+2016-08-26 22:38:07,994 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading XInventoryInConnector on port 8003
+2016-08-26 22:38:08,002 DEBUG (1) - OpenSim.Server.Handlers.Inventory.XInventoryInConnector [XInventoryInConnector]: Starting with config name InventoryService
+2016-08-26 22:38:08,235 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:38:08,239 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: XInventoryInConnector loaded successfully
+2016-08-26 22:38:08,240 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GridServiceConnector on port 8003
+2016-08-26 22:38:08,480 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:38:08,484 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:38:08,498 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GridServiceConnector loaded successfully
+2016-08-26 22:38:08,500 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GridInfoServerInConnector on port 8002
+2016-08-26 22:38:08,512 DEBUG (1) - OpenSim.Server.Handlers.Grid.GridInfoHandlers [GRID INFO SERVICE]: Grid info service initialized with 10 keys
+2016-08-26 22:38:08,517 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GridInfoServerInConnector loaded successfully
+2016-08-26 22:38:08,518 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AuthenticationServiceConnector on port 8003
+2016-08-26 22:38:08,748 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:38:08,751 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AuthenticationServiceConnector loaded successfully
+2016-08-26 22:38:08,753 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading OpenIdServerConnector on port 8002
+2016-08-26 22:38:08,977 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:38:09,207 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: UserAccount data tables already up to date at revision 4
+2016-08-26 22:38:09,429 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:38:09,431 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:38:09,667 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:38:09,898 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:38:09,900 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:38:10,119 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:38:10,362 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:38:10,364 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:38:10,371 INFO  (1) - OpenSim.Server.Handlers.Authentication.OpenIdServerConnector [OPENID]: OpenId service enabled
+2016-08-26 22:38:10,373 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: OpenIdServerConnector loaded successfully
+2016-08-26 22:38:10,376 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AvatarServiceConnector on port 8003
+2016-08-26 22:38:10,602 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:38:10,605 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:38:10,607 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AvatarServiceConnector loaded successfully
+2016-08-26 22:38:10,609 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading LLLoginServiceInConnector on port 8002
+2016-08-26 22:38:10,845 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: UserAccount data tables already up to date at revision 4
+2016-08-26 22:38:11,065 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:38:11,067 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:38:11,293 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:38:11,512 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:38:11,515 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:38:11,746 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:38:11,981 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:38:11,982 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:38:12,206 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:38:12,208 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:38:12,430 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:38:12,652 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:38:12,880 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:38:12,882 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:38:13,110 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Presence data tables already up to date at revision 3
+2016-08-26 22:38:13,112 DEBUG (1) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2016-08-26 22:38:13,342 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:38:13,344 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:38:13,574 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: FriendsStore data tables already up to date at revision 3
+2016-08-26 22:38:13,594 DEBUG (1) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Using instantiated LibraryService
+2016-08-26 22:38:13,610 DEBUG (1) - OpenSim.Services.InventoryService.LibraryService [LIBRARY]: Starting library service...
+2016-08-26 22:38:13,620 INFO  (1) - OpenSim.Services.InventoryService.LibraryService [LIBRARY INVENTORY]: Loading library control file ./inventory/Libraries.xml
+2016-08-26 22:38:13,659 DEBUG (1) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Starting...
+2016-08-26 22:38:13,672 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: LLLoginServiceInConnector loaded successfully
+2016-08-26 22:38:13,674 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading PresenceServiceConnector on port 8003
+2016-08-26 22:38:13,898 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Presence data tables already up to date at revision 3
+2016-08-26 22:38:13,899 DEBUG (1) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2016-08-26 22:38:13,901 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: PresenceServiceConnector loaded successfully
+2016-08-26 22:38:13,902 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading UserAccountServiceConnector on port 8003
+2016-08-26 22:38:14,123 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: UserAccount data tables already up to date at revision 4
+2016-08-26 22:38:14,349 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:38:14,351 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:38:14,577 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:38:14,806 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:38:14,809 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:38:15,031 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:38:15,254 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:38:15,258 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:38:15,260 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: UserAccountServiceConnector loaded successfully
+2016-08-26 22:38:15,261 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GridUserServiceConnector on port 8003
+2016-08-26 22:38:15,497 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:38:15,499 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:38:15,501 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GridUserServiceConnector loaded successfully
+2016-08-26 22:38:15,502 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AgentPreferencesServiceConnector on port 8003
+2016-08-26 22:38:15,735 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AgentPrefs data tables already up to date at revision 1
+2016-08-26 22:38:15,737 DEBUG (1) - OpenSim.Services.UserAccountService.AgentPreferencesService [AGENT PREFERENCES SERVICE]: Starting agent preferences service
+2016-08-26 22:38:15,739 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AgentPreferencesServiceConnector loaded successfully
+2016-08-26 22:38:15,740 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading FriendsServiceConnector on port 8003
+2016-08-26 22:38:15,967 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: FriendsStore data tables already up to date at revision 3
+2016-08-26 22:38:15,970 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: FriendsServiceConnector loaded successfully
+2016-08-26 22:38:15,971 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading MapAddServiceConnector on port 8003
+2016-08-26 22:38:15,988 DEBUG (1) - OpenSim.Services.MapImageService.MapImageService [MAP IMAGE SERVICE]: Starting MapImage service
+2016-08-26 22:38:15,992 INFO  (1) - OpenSim.Server.Handlers.MapImage.MapAddServiceConnector [MAP IMAGE HANDLER]: GridService check is OFF
+2016-08-26 22:38:15,994 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: MapAddServiceConnector loaded successfully
+2016-08-26 22:38:15,995 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading MapGetServiceConnector on port 8002
+2016-08-26 22:38:16,001 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: MapGetServiceConnector loaded successfully
+2016-08-26 22:41:43,472 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Starting in C:\Users\tim\Desktop\mmoGrid\bin
+2016-08-26 22:41:43,491 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: OpenSimulator version: OpenSim 0.8.2.1 Release    6ea3a2d
+2016-08-26 22:41:43,491 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 64-bit
+2016-08-26 22:41:43,501 INFO  (1) - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Logging started to file C:\Users\tim\Desktop\mmoGrid\bin\Robust.log
+2016-08-26 22:41:43,798 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS] Not including stats for network interface 'Wireless Network Connection' of type 'Wireless80211'.
+2016-08-26 22:41:43,798 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS]     To include, add to comma separated list in [Monitoring]NetworkInterfaceTypes=Ethernet
+2016-08-26 22:41:43,799 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS] Not including stats for network interface 'Loopback Pseudo-Interface 1' of type 'Loopback'.
+2016-08-26 22:41:43,799 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS]     To include, add to comma separated list in [Monitoring]NetworkInterfaceTypes=Ethernet
+2016-08-26 22:41:43,800 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS] Not including stats for network interface 'Teredo Tunneling Pseudo-Interface' of type 'Tunnel'.
+2016-08-26 22:41:43,801 DEBUG (1) - OpenSim.Framework.Monitoring.ServerStatsCollector [SERVER STATS]     To include, add to comma separated list in [Monitoring]NetworkInterfaceTypes=Ethernet
+2016-08-26 22:41:43,806 INFO  (1) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [BASE HTTP SERVER]: Starting HTTP server on port 8003
+2016-08-26 22:41:43,837 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread0:8003, ID 6
+2016-08-26 22:41:43,838 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread1:8003, ID 7
+2016-08-26 22:41:43,839 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread2:8003, ID 8
+2016-08-26 22:41:43,841 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread LongPollServiceWatcherThread:8003, ID 9
+2016-08-26 22:41:43,844 INFO  (1) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [BASE HTTP SERVER]: Starting HTTP server on port 8002
+2016-08-26 22:41:43,846 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread0:8002, ID 12
+2016-08-26 22:41:43,848 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread1:8002, ID 13
+2016-08-26 22:41:43,849 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWorkerThread2:8002, ID 14
+2016-08-26 22:41:43,850 DEBUG (1) - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread LongPollServiceWatcherThread:8002, ID 15
+2016-08-26 22:41:43,853 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GetTextureServerConnector on port 8002
+2016-08-26 22:41:44,606 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AssetStore data tables already up to date at revision 9
+2016-08-26 22:41:44,612 DEBUG (1) - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Loading default asset set from ./assets/AssetSets.xml
+2016-08-26 22:43:07,815 DEBUG (1) - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Local asset service enabled
+2016-08-26 22:43:07,818 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GetTextureServerConnector loaded successfully
+2016-08-26 22:43:07,819 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AssetServiceConnector on port 8003
+2016-08-26 22:43:08,046 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AssetStore data tables already up to date at revision 9
+2016-08-26 22:43:08,052 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AssetServiceConnector loaded successfully
+2016-08-26 22:43:08,053 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading XInventoryInConnector on port 8003
+2016-08-26 22:43:08,059 DEBUG (1) - OpenSim.Server.Handlers.Inventory.XInventoryInConnector [XInventoryInConnector]: Starting with config name InventoryService
+2016-08-26 22:43:08,285 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:43:08,287 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: XInventoryInConnector loaded successfully
+2016-08-26 22:43:08,287 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GridServiceConnector on port 8003
+2016-08-26 22:43:08,521 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:43:08,523 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:43:08,529 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GridServiceConnector loaded successfully
+2016-08-26 22:43:08,530 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GridInfoServerInConnector on port 8002
+2016-08-26 22:43:08,534 DEBUG (1) - OpenSim.Server.Handlers.Grid.GridInfoHandlers [GRID INFO SERVICE]: Grid info service initialized with 10 keys
+2016-08-26 22:43:08,536 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GridInfoServerInConnector loaded successfully
+2016-08-26 22:43:08,536 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AuthenticationServiceConnector on port 8003
+2016-08-26 22:43:08,763 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:43:08,765 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AuthenticationServiceConnector loaded successfully
+2016-08-26 22:43:08,766 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading OpenIdServerConnector on port 8002
+2016-08-26 22:43:08,990 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:43:09,217 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: UserAccount data tables already up to date at revision 4
+2016-08-26 22:43:09,441 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:43:09,442 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:43:09,659 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:43:09,879 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:43:09,883 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:43:10,118 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:43:10,348 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:43:10,349 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:43:10,354 INFO  (1) - OpenSim.Server.Handlers.Authentication.OpenIdServerConnector [OPENID]: OpenId service enabled
+2016-08-26 22:43:10,355 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: OpenIdServerConnector loaded successfully
+2016-08-26 22:43:10,356 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AvatarServiceConnector on port 8003
+2016-08-26 22:43:10,575 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:43:10,576 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:43:10,577 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AvatarServiceConnector loaded successfully
+2016-08-26 22:43:10,579 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading LLLoginServiceInConnector on port 8002
+2016-08-26 22:43:10,810 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: UserAccount data tables already up to date at revision 4
+2016-08-26 22:43:11,039 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:43:11,040 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:43:11,264 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:43:11,486 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:43:11,488 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:43:11,708 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:43:11,934 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:43:11,935 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:43:12,159 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:43:12,161 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:43:12,389 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:43:12,611 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:43:12,828 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:43:12,829 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:43:13,058 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Presence data tables already up to date at revision 3
+2016-08-26 22:43:13,058 DEBUG (1) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2016-08-26 22:43:13,273 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:43:13,274 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:43:13,500 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: FriendsStore data tables already up to date at revision 3
+2016-08-26 22:43:13,516 DEBUG (1) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Using instantiated LibraryService
+2016-08-26 22:43:13,526 DEBUG (1) - OpenSim.Services.InventoryService.LibraryService [LIBRARY]: Starting library service...
+2016-08-26 22:43:13,530 INFO  (1) - OpenSim.Services.InventoryService.LibraryService [LIBRARY INVENTORY]: Loading library control file ./inventory/Libraries.xml
+2016-08-26 22:43:13,556 DEBUG (1) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Starting...
+2016-08-26 22:43:13,563 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: LLLoginServiceInConnector loaded successfully
+2016-08-26 22:43:13,564 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading PresenceServiceConnector on port 8003
+2016-08-26 22:43:13,788 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Presence data tables already up to date at revision 3
+2016-08-26 22:43:13,789 DEBUG (1) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2016-08-26 22:43:13,790 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: PresenceServiceConnector loaded successfully
+2016-08-26 22:43:13,790 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading UserAccountServiceConnector on port 8003
+2016-08-26 22:43:14,012 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: UserAccount data tables already up to date at revision 4
+2016-08-26 22:43:14,241 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridStore data tables already up to date at revision 9
+2016-08-26 22:43:14,242 DEBUG (1) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2016-08-26 22:43:14,460 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AuthStore data tables already up to date at revision 3
+2016-08-26 22:43:14,682 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:43:14,684 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:43:14,911 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: InventoryStore data tables already up to date at revision 6
+2016-08-26 22:43:15,144 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: Avatar data tables already up to date at revision 2
+2016-08-26 22:43:15,145 DEBUG (1) - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2016-08-26 22:43:15,145 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: UserAccountServiceConnector loaded successfully
+2016-08-26 22:43:15,147 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading GridUserServiceConnector on port 8003
+2016-08-26 22:43:15,377 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: GridUserStore data tables already up to date at revision 2
+2016-08-26 22:43:15,378 DEBUG (1) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2016-08-26 22:43:15,379 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: GridUserServiceConnector loaded successfully
+2016-08-26 22:43:15,380 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading AgentPreferencesServiceConnector on port 8003
+2016-08-26 22:43:15,608 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: AgentPrefs data tables already up to date at revision 1
+2016-08-26 22:43:15,610 DEBUG (1) - OpenSim.Services.UserAccountService.AgentPreferencesService [AGENT PREFERENCES SERVICE]: Starting agent preferences service
+2016-08-26 22:43:15,611 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: AgentPreferencesServiceConnector loaded successfully
+2016-08-26 22:43:15,612 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading FriendsServiceConnector on port 8003
+2016-08-26 22:43:15,832 DEBUG (1) - OpenSim.Data.Migration [MIGRATIONS]: FriendsStore data tables already up to date at revision 3
+2016-08-26 22:43:15,833 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: FriendsServiceConnector loaded successfully
+2016-08-26 22:43:15,834 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading MapAddServiceConnector on port 8003
+2016-08-26 22:43:15,841 DEBUG (1) - OpenSim.Services.MapImageService.MapImageService [MAP IMAGE SERVICE]: Starting MapImage service
+2016-08-26 22:43:15,843 INFO  (1) - OpenSim.Server.Handlers.MapImage.MapAddServiceConnector [MAP IMAGE HANDLER]: GridService check is OFF
+2016-08-26 22:43:15,844 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: MapAddServiceConnector loaded successfully
+2016-08-26 22:43:15,845 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: Loading MapGetServiceConnector on port 8002
+2016-08-26 22:43:15,849 INFO  (1) - OpenSim.Server.OpenSimServer [SERVER]: MapGetServiceConnector loaded successfully
+2016-08-26 22:51:20,134 DEBUG (29) - OpenSim.Server.Handlers.MapImage.MapServerPostHandler [MAP ADD SERVER CONNECTOR]: Received map data for region at 1000-1000
+2016-08-26 22:51:20,455 DEBUG (29) - OpenSim.Services.GridService.GridService [GRID SERVICE] FindAnyConflictingRegion: re-register of Welcome/64ed6e42-8ba2-44f8-a7da-789884abc8bc at <1000,1000>
+2016-08-26 22:51:20,989 DEBUG (29) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region Welcome (64ed6e42-8ba2-44f8-a7da-789884abc8bc, 256x256) registered at 1000,1000 with flags RegionOnline
+2016-08-26 22:51:27,769 DEBUG (29) - OpenSim.Server.Handlers.MapImage.MapServerPostHandler [MAP ADD SERVER CONNECTOR]: Received map data for region at 1001-1000
+2016-08-26 22:51:28,033 DEBUG (29) - OpenSim.Services.GridService.GridService [GRID SERVICE] FindAnyConflictingRegion: re-register of Aegis/2b0a1f69-cdca-49e6-8195-3b626caa273d at <1001,1000>
+2016-08-26 22:51:28,572 DEBUG (29) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region Aegis (2b0a1f69-cdca-49e6-8195-3b626caa273d, 256x256) registered at 1001,1000 with flags RegionOnline
+2016-08-26 22:51:34,146 DEBUG (28) - OpenSim.Server.Handlers.MapImage.MapServerPostHandler [MAP ADD SERVER CONNECTOR]: Received map data for region at 1000-1001
+2016-08-26 22:51:34,407 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE] FindAnyConflictingRegion: re-register of Iris/ddf64714-f7e1-4e32-b3ca-2e8126b59f1a at <1000,1001>
+2016-08-26 22:51:34,949 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region Iris (ddf64714-f7e1-4e32-b3ca-2e8126b59f1a, 256x256) registered at 1000,1001 with flags RegionOnline
+2016-08-26 22:51:40,478 DEBUG (28) - OpenSim.Server.Handlers.MapImage.MapServerPostHandler [MAP ADD SERVER CONNECTOR]: Received map data for region at 1001-1001
+2016-08-26 22:51:40,734 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE] FindAnyConflictingRegion: re-register of Noctis/26513cbd-2f32-40b4-a4aa-1fa76c4714b7 at <1001,1001>
+2016-08-26 22:51:41,266 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region Noctis (26513cbd-2f32-40b4-a4aa-1fa76c4714b7, 256x256) registered at 1001,1001 with flags RegionOnline
+2016-08-26 22:51:46,762 DEBUG (28) - OpenSim.Server.Handlers.MapImage.MapServerPostHandler [MAP ADD SERVER CONNECTOR]: Received map data for region at 1002-1000
+2016-08-26 22:51:47,015 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE] FindAnyConflictingRegion: re-register of Arazu/7be8dc19-6a9f-4d93-b033-f2ed9daae59a at <1002,1000>
+2016-08-26 22:51:47,557 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region Arazu (7be8dc19-6a9f-4d93-b033-f2ed9daae59a, 256x256) registered at 1002,1000 with flags RegionOnline
+2016-08-26 22:51:53,168 DEBUG (28) - OpenSim.Server.Handlers.MapImage.MapServerPostHandler [MAP ADD SERVER CONNECTOR]: Received map data for region at 1002-1001
+2016-08-26 22:51:53,420 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE] FindAnyConflictingRegion: re-register of Celestis/df5a8dd8-ef2a-49d7-8a8c-1f2dcc68f50f at <1002,1001>
+2016-08-26 22:51:53,956 DEBUG (28) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region Celestis (df5a8dd8-ef2a-49d7-8a8c-1f2dcc68f50f, 256x256) registered at 1002,1001 with flags RegionOnline
+2016-08-26 22:52:22,724 INFO  (36) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Login request for tim weatherford at home using viewer 4.0.2.38137, channel Kokua Release, IP 107.145.50.80, Mac 8b441b40cac11f1f7838a4148c936d1d, Id0 68d0886ab20a30d6a517f122f8f34b9f
+2016-08-26 22:52:23,142 DEBUG (36) - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [PASS AUTH]: got 07cb462c7a78c97c430e8f1172225b75; hashed = f9be6da048f21c6745aeca27c14763d7; stored = f9be6da048f21c6745aeca27c14763d7
+2016-08-26 22:52:24,237 DEBUG (36) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LoginAgent: session a4d740c8-8cd1-440a-b3a2-a657cb89120c, user bb5177ba-6bbb-11e6-94fc-f23c91db8783, region 00000000-0000-0000-0000-000000000000, secure session 62ecc990-31da-4ec0-ba65-387500d97c51
+2016-08-26 22:52:24,247 DEBUG (36) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User bb5177ba-6bbb-11e6-94fc-f23c91db8783 is online
+2016-08-26 22:52:24,783 WARN  (36) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: User Tim Weatherford tried to login to a 'home' start location but they have none set
+2016-08-26 22:52:24,806 DEBUG (36) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Finding destination matching start location home for Tim Weatherford
+2016-08-26 22:52:24,985 DEBUG (36) - OpenSim.Services.GridService.GridService [GRID SERVICE]: GetDefaultRegions returning 0 regions
+2016-08-26 22:52:24,994 WARN  (36) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: User Tim Weatherford does not have a valid home and this grid does not have default locations. Attempting to find random region
+2016-08-26 22:52:25,171 DEBUG (36) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Fallback returned 0 regions
+2016-08-26 22:52:25,523 DEBUG (36) - OpenSim.Services.GridService.GridService [GRID SERVICE]: Hyperlinks returned 0 regions
+2016-08-26 22:52:25,542 DEBUG (36) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Found destination Aegis, endpoint 107.145.50.80:9001 for tim weatherford
+2016-08-26 22:52:26,300 DEBUG (36) - OpenSim.Services.Connectors.Simulation.SimulationServiceConnector [REMOTE SIMULATION CONNECTOR]: QueryAccess to http://game.netkiosk.org:9000/agent/bb5177ba-6bbb-11e6-94fc-f23c91db8783/2b0a1f69-cdca-49e6-8195-3b626caa273d/ returned True, reason , version 0.5/0.5
+2016-08-26 22:52:26,313 DEBUG (36) - OpenSim.Services.Connectors.Simulation.SimulationServiceConnector [REMOTE SIMULATION CONNECTOR]: Creating agent at http://game.netkiosk.org:9000/
+2016-08-26 22:52:27,173 DEBUG (36) - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2016-08-26 22:52:27,184 DEBUG (36) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: All clear. Sending login response to tim weatherford
+2016-08-26 22:52:27,209 DEBUG (36) - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2016-08-26 22:52:33,756 DEBUG (36) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session a4d740c8-8cd1-440a-b3a2-a657cb89120c, user bb5177ba-6bbb-11e6-94fc-f23c91db8783, region 2b0a1f69-cdca-49e6-8195-3b626caa273d. Previously: region 00000000-0000-0000-0000-000000000000
+2016-08-26 22:59:02,596 INFO  (43) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Login request for test user at home using viewer 4.0.2.38137, channel Kokua Release, IP 107.145.50.80, Mac 8b441b40cac11f1f7838a4148c936d1d, Id0 68d0886ab20a30d6a517f122f8f34b9f
+2016-08-26 22:59:04,125 DEBUG (43) - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [PASS AUTH]: got 098f6bcd4621d373cade4e832627b4f6; hashed = 0728cee470b36a697d8155bd935f05f6; stored = 0728cee470b36a697d8155bd935f05f6
+2016-08-26 22:59:05,517 DEBUG (43) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LoginAgent: session ed38945b-1fb5-44c2-ba48-808558d2cfff, user fcde8a91-6c01-11e6-94fc-f23c91db8783, region 00000000-0000-0000-0000-000000000000, secure session c9518d75-ca1f-49e7-acf2-d9d65bfb6eb7
+2016-08-26 22:59:06,085 DEBUG (43) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User fcde8a91-6c01-11e6-94fc-f23c91db8783 is online
+2016-08-26 22:59:06,894 DEBUG (43) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Finding destination matching start location home for test user
+2016-08-26 22:59:06,969 DEBUG (43) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Found destination Welcome Region, endpoint 107.145.50.80:9000 for test user
+2016-08-26 22:59:07,930 DEBUG (43) - OpenSim.Services.Connectors.Simulation.SimulationServiceConnector [REMOTE SIMULATION CONNECTOR]: QueryAccess to http://game.netkiosk.org:9000/agent/fcde8a91-6c01-11e6-94fc-f23c91db8783/64ed6e42-8ba2-44f8-a7da-789884abc8bc/ returned True, reason , version 0.5/0.5
+2016-08-26 22:59:07,985 DEBUG (43) - OpenSim.Services.Connectors.Simulation.SimulationServiceConnector [REMOTE SIMULATION CONNECTOR]: Creating agent at http://game.netkiosk.org:9000/
+2016-08-26 22:59:10,274 DEBUG (43) - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2016-08-26 22:59:10,625 DEBUG (43) - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: All clear. Sending login response to test user
+2016-08-26 22:59:10,748 DEBUG (43) - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2016-08-26 22:59:39,175 DEBUG (45) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session ed38945b-1fb5-44c2-ba48-808558d2cfff, user fcde8a91-6c01-11e6-94fc-f23c91db8783, region 64ed6e42-8ba2-44f8-a7da-789884abc8bc. Previously: region 00000000-0000-0000-0000-000000000000
+2016-08-26 23:04:26,063 INFO  (56) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [LOGHTTP] Slow handling of 108 POST /xinventory   from 107.145.50.80:53706 took 3204ms
+2016-08-26 23:04:27,342 INFO  (53) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [LOGHTTP] Slow handling of 109 POST /xinventory   from 107.145.50.80:53699 took 4672ms
+2016-08-26 23:04:29,709 INFO  (56) - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [LOGHTTP] Slow handling of 109 POST /xinventory   from 107.145.50.80:53706 took 3594ms
+2016-08-26 23:10:47,947 DEBUG (68) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session ed38945b-1fb5-44c2-ba48-808558d2cfff, user fcde8a91-6c01-11e6-94fc-f23c91db8783, region 2b0a1f69-cdca-49e6-8195-3b626caa273d. Previously: region 64ed6e42-8ba2-44f8-a7da-789884abc8bc
+2016-08-26 23:12:34,360 DEBUG (70) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session a4d740c8-8cd1-440a-b3a2-a657cb89120c, user bb5177ba-6bbb-11e6-94fc-f23c91db8783, region 7be8dc19-6a9f-4d93-b033-f2ed9daae59a. Previously: region 2b0a1f69-cdca-49e6-8195-3b626caa273d
+2016-08-26 23:13:25,753 DEBUG (72) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User fcde8a91-6c01-11e6-94fc-f23c91db8783 is offline
+2016-08-26 23:13:26,647 DEBUG (72) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LogoutAgent: session ed38945b-1fb5-44c2-ba48-808558d2cfff, user fcde8a91-6c01-11e6-94fc-f23c91db8783, region 2b0a1f69-cdca-49e6-8195-3b626caa273d
+2016-08-26 23:13:46,808 DEBUG (75) - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User bb5177ba-6bbb-11e6-94fc-f23c91db8783 is offline
+2016-08-26 23:13:47,458 DEBUG (75) - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LogoutAgent: session a4d740c8-8cd1-440a-b3a2-a657cb89120c, user bb5177ba-6bbb-11e6-94fc-f23c91db8783, region 7be8dc19-6a9f-4d93-b033-f2ed9daae59a

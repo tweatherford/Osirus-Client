@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="Windows-1252"?>
-<region category="PG" entities="0">
+<region category="PG" entities="2">
   <info>
     <uuid>df5a8dd8-ef2a-49d7-8a8c-1f2dcc68f50f</uuid>
     <url>http://game.netkiosk.org:9000</url>
@@ -23,7 +23,7 @@
 </estate>
     <parceldata>
   <parcel showinsearch="false" scripts="true" build="true" public="true" category="0" forsale="false" salesprice="0">
-    <name>Your Parcel</name>
+    <name>Celestus</name>
     <description>
     </description>
     <uuid>05a71b45-bd4c-4164-b5c4-1c7f951127a9</uuid>
@@ -32,7 +32,8 @@
     <infouuid>00e90300-00ea-0300-7e00-00007e000000</infouuid>
     <dwell>0</dwell>
     <owner>
-      <uuid>aa927635-19a4-40b8-8dc0-90a7a7fb3c59</uuid>
+      <uuid>bb5177ba-6bbb-11e6-94fc-f23c91db8783</uuid>
+      <name>Tim Weatherford</name>
     </owner>
   </parcel>
 </parceldata>
