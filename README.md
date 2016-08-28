@@ -5,7 +5,8 @@ Osirus MMO is a truly free, sandbox MMO/Capitalism simulator. Everything in the 
 
 #Installing
 To intall run/unpack OsirusMMO.exe to the directory of your choice. This will extract the game client. 
-- Run OsirusViewer.exe in the directory you extracted the client to.
+- Run OsirusMMO Launcher from the shortcut in the directory you extracted the client to.
+- Do not change the location of the shortcut, instead, make another shortcut.
 - Login with your username and password.
 
 Thanks for trying Osirus MMO, we hope it is a pleasant experience.
